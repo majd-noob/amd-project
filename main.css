@@ -1,0 +1,66 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  main {
+    flex: 1; 
+  }
+
+  footer {
+    flex-shrink: 0;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .content {
+    margin-top: 2rem;
+  }
+
+  .btn-outline-light {
+    margin: 5px;
+  }
+
+  @media (max-width: 576px) {
+    .navbar-nav {
+      text-align: left;
+    }
+
+    .nav-item {
+      padding: 5px 0;
+    }
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
+  /* Adding animation for the progress bar */
+  .progress {
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 0;
+  }
+
+  .progress-bar {
+    transition: width 1.5s ease-out; /* Smooth animation */
+    background-color: chocolate; /*color*/
+
+  }
+  
+  /* Optional: Some styling for progress text inside bars */
+  .progress-bar span {
+    position: absolute;
+    color: rgb(234, 234, 235);
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+  }
