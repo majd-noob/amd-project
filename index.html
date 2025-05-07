@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" lang="en">
+        <title>website</title>
+        <meta name="description" content="a website">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <script></script>
+        <style>
+          html, body {
+            height: 100%;
+            margin: 0;
+          }
+          
+          body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+          }
+          
+          .content {
+            flex: 1 0 auto;
+          }
+                      
+          footer {
+            flex-shrink: 0;
+          }
+          .navbar-brand {
+            font-size: 1.5rem;
+          }
+          
+  
+          @media (max-width: 576px) {
+            .navbar-nav {
+              text-align: left;
+            }
+            
+            .nav-item {
+              padding: 5px 0;
+            }
+          }
+        </style>
+    </head>
+    <body class="bg-secondary text-white">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <i class="fas fa-globe me-2"></i>Logo
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" title="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="offcanvas offcanvas-start text-bg-dark" id="demo">
+            <div class="offcanvas-header">
+                <h1 class="offcanvas-title">Products</h1>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" title="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p>products</p>
+                <p>tech-Cars</p>
+                <p>jobs</p>
+            </div>
+        </div>
+        <div>
+            <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                Open Offcanvas Sidebar
+              </button>
+        </div>
+        <div class="content">
+            <section class="container btn-outline-light text-center mt-4">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <p class="h1">Economy is our first name</p>
+                        <p class="lead">
+                            One of our top priorittes is to adjust each package we offer to our custumers exact needs we offer multiple services and so much more and later on we futher can explain of our mission
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <p class="h1">Book and safety is our top priorittes</p>
+                        <p class="lead">
+                            One of our top priorittes is to adjust each package we offer to our custumers exact needs we offer multiple services and so much more and later on we futher can explain of our mission
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <p class="h1">Leading teams</p>
+                        <p class="lead">
+                            One of our top priorittes is to adjust each package we offer to our custumers exact needs we offer multiple services and so much more and later on we futher can explain of our mission
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+                        <button type="button" class="btn btn-primary mx-3" data-bs-toggle="tooltip" title="Hooray!">Try me!</button>
+                        <img src="img/code1.jfif" alt="coding" class="img-fluid" width="100px" height="100px">
+                    </div>      
+                    <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+                        <button type="button" class="btn btn-primary mx-3" data-bs-toggle="tooltip" title="Hooray!">Try me!</button>
+                        <img src="img/code1.jfif" alt="coding" class="img-fluid" width="100px" height="100px">
+                    </div>  
+                    <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+                        <button type="button" class="btn btn-primary mx-3" data-bs-toggle="tooltip" title="Hooray!">Try me!</button>
+                        <img src="img/code1.jfif" alt="coding" class="img-fluid" width="100px" height="100px">
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+                        <button type="button" class="btn btn-primary mx-3" data-bs-toggle="tooltip" title="Hooray!">Try me!</button>
+                        <img src="img/code1.jfif" alt="coding" class="img-fluid" width="100px" height="100px">
+                    </div>          
+                </div>
+            </section>
+            <div class="container mt-5 text-center">
+                <h2>Why use our services</h2>
+                <p>This table explains why we are recomending </p>            
+                <table class="table table-dark table-striped">
+                  <thead>
+                    <tr>
+                      <th>OUR services</th>
+                      <th>using our services suscription</th>
+                      <th>pricing</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>free plan</td>
+                      <td> ai templates services limited features</td>
+                      <td>free</td>
+                    </tr>
+                    <tr>
+                      <td> pro plan</td>
+                      <td>accses to more of ai features and more</td>
+                      <td>2$ per month and to 20 per year</td>
+                    </tr>
+                    <tr>
+                      <td>prenium plan</td>
+                      <td>Ulimited ai agents and ML training models and ML laerning course!</td>
+                      <td>3$ to 30$ per month</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+        </div>
+        <footer class="bg-dark text-center text-white mt-5">
+            <div class="container p-4 pb-0">
+                <section class="mb-4">
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fab fa-facebook-f"></i> Follow us on Facebook
+                    </a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fab fa-x"></i> Follow us on X
+                    </a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fab fa-github"></i> Follow us on github
+                    </a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fab fa-linkedin"></i> For jobs follow  us at linkedin
+                    </a>
+                </section>
+            </div>
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2023 Copyright:
+                <a class="text-white" href="#">website.com</a>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
